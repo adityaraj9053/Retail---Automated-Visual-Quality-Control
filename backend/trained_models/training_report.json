@@ -1,0 +1,14 @@
+{
+  "timestamp": "20260526_080252",
+  "architecture": "MobileNetV2 + Custom Head",
+  "image_size": 224,
+  "batch_size": 32,
+  "epochs_trained": 20,
+  "class_indices": {
+    "Defect": 0,
+    "Pass": 1
+  },
+  "val_loss": 0.5867,
+  "val_accuracy": 0.66,
+  "model_path": "D:\\Zaalima Intern Project 2\\backend\\trained_models\\pcb_model.h5"
+}
