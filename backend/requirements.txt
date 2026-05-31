@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+python-multipart
+tensorflow
+opencv-python-headless
+numpy
+pandas
+matplotlib
+Pillow
+pydantic
+python-dotenv
+aiofiles
+sqlalchemy
+websockets
+psutil
