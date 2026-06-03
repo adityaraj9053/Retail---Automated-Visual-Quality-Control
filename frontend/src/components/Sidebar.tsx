@@ -1,18 +1,5 @@
-/**
- * VisionSpec QC — Sidebar Component
- * Premium navigation sidebar with active state indicators.
- */
-
 import { NavLink } from 'react-router-dom';
-import {
-  LayoutDashboard,
-  ScanEye,
-  SearchCheck,
-  BarChart3,
-  History,
-  Activity,
-  Settings,
-} from 'lucide-react';
+import {LayoutDashboard, ScanEye, SearchCheck, BarChart3, History, Activity, Settings} from 'lucide-react';
 
 const navItems = [
   { section: 'Main' },
