@@ -1,14 +1,3 @@
-"""
-VisionSpec QC — Phase 2: Core CNN Training Script
-Trains a MobileNetV2-based binary classifier for PCB defect detection.
-
-Usage:
-    python -m backend.scripts.train_model
-    
-    Or directly:
-    python backend/scripts/train_model.py --dataset_dir path/to/dataset
-"""
-
 import os
 import sys
 import argparse
