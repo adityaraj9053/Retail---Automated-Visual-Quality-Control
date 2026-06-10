@@ -24,24 +24,7 @@ val_datagen = ImageDataGenerator(
 
 
 def get_train_generator(dataset_dir: str = None):
-    """
-    Create a training data generator from the dataset directory.
-
-    Expected directory structure:
-        datasets/
-        ├── Pass/
-        │   ├── img001.jpg
-        │   └── ...
-        └── Defect/
-            ├── img001.jpg
-            └── ...
-
-    Args:
-        dataset_dir: Path to the root dataset folder.
-
-    Returns:
-        A Keras DirectoryIterator for training data.
-    """
+  
     if dataset_dir is None:
         dataset_dir = str(settings.DATASETS_DIR)
 
