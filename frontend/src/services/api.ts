@@ -1,7 +1,4 @@
-/**
- * VisionSpec QC — API Service
- * Centralized Axios instance for all backend API calls.
- */
+
 
 import axios from 'axios';
 
@@ -42,7 +39,7 @@ export const getAnalytics = () => api.get('/analytics');
 export const getHistory = (page = 1, limit = 20) =>
   api.get(`/history?page=${page}&limit=${limit}`);
 
-/** Get system metrics */
+
 export const getSystemMetrics = () => api.get('/system/metrics');
 
 /** Submit operator feedback (Human-in-the-Loop) */
