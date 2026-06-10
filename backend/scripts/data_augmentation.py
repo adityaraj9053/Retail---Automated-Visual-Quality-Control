@@ -1,8 +1,3 @@
-"""
-VisionSpec QC - Data Augmentation Pipeline
-Implements Keras ImageDataGenerator for robust PCB image augmentation.
-"""
-
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from backend.app.config.settings import settings
 
