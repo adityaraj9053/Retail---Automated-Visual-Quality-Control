@@ -1,16 +1,3 @@
-"""
-VisionSpec QC — Synthetic PCB Dataset Generator
-Generates realistic synthetic PCB images for training the defect detection model.
-
-Creates two classes:
-  - Pass:   Clean PCB boards with circuit traces and components
-  - Defect: PCB boards with scratches, burns, missing traces, corrosion
-
-Usage:
-    python backend/scripts/generate_dataset.py
-    python backend/scripts/generate_dataset.py --count 500 --size 224
-"""
-
 import os
 import sys
 import argparse
