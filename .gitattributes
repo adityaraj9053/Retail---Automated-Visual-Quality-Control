@@ -1,0 +1,7 @@
+# Treat binary assets as binary so autocrlf never corrupts them
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.h5 binary
+*.ico binary
