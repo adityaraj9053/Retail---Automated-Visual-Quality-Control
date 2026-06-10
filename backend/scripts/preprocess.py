@@ -11,16 +11,6 @@ from backend.app.config.settings import settings
 
 
 def clean_dataset(dataset_dir: str = None):
-    """
-    Walk through the dataset directory and:
-    1. Remove corrupted / unreadable images
-    2. Resize all images to the target size
-    3. Convert all images to RGB (remove alpha channels)
-    4. Print a summary report
-
-    Args:
-        dataset_dir: Root directory of the dataset.
-    """
     if dataset_dir is None:
         dataset_dir = str(settings.DATASETS_DIR)
 
